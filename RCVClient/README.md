@@ -6,12 +6,25 @@ The RCV Client is a Android based client to control the RCV.
 Before can get started you need Android SDK and ANT.
 
 Get the latest RCVClient:
-    `git clone git://github.com/haitech/rcv.git`
-Build a debug version
+    
+`git clone git://github.com/haitech/rcv.git`
+
+Browser the directory.
 ```bash
 cd rcv/RCVClient
+```
+
+To build a debug version you will need to define the location of your Android SDK.
+
+`echo "sdk.dir=/dir/to/your/android-sdk-linux" > local.properties`
+
+The local.properties should be located in rcv/RCVClient.
+
+Now you can build a debug version
+```bash
 ant debug
 ant debug install
 ```
-Start the application
-    `adb shell am start -a android.intent.action.MAIN -n no.haitech.rcvclient/.MainActivity`
+Start the application:
+
+`adb shell am start -a android.intent.action.MAIN -n no.haitech.rcvclient/.MainActivity`
