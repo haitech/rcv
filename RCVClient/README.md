@@ -2,6 +2,9 @@ RCV Client
 ===
 The RCV Client is a Android based client to control the RCV.
 
+<img src="https://raw.github.com/haitech/rcv/gh-pages/screenshots/rcvclient_main-v0.1.png" height="250px" width="180px" />
+<img src="https://raw.github.com/haitech/rcv/gh-pages/screenshots/rcvclient_vehicle-v0.1.png" height="180px" width="250px" />
+
 #Build RCV Client
 Before can get started you need Android SDK and ANT.
 
