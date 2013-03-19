@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RCV Client</string>
+    <string name="tvLogo">Here comes the logo!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="bConnect">Connect</string>
+    <string name="ivLogo">RCV Logo</string>
+    <string name="eUsername">Username</string>
+    <string name="ePassword">Password</string>
+    <string name="cbRememberMe">Remember me</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_vehicle">VehicleActivity</string>
+
+</resources>
